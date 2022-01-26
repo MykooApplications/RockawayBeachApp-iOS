@@ -1,0 +1,706 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02C9FB4E27A1D9BC009B43E8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FB4D27A1D9BC009B43E8 /* AppDelegate.swift */; };
+		02C9FB5027A1D9BC009B43E8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FB4F27A1D9BC009B43E8 /* SceneDelegate.swift */; };
+		02C9FB5227A1D9BC009B43E8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FB5127A1D9BC009B43E8 /* ContentView.swift */; };
+		02C9FB5527A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FB5327A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodeld */; };
+		02C9FB5727A1D9BD009B43E8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C9FB5627A1D9BD009B43E8 /* Assets.xcassets */; };
+		02C9FB5A27A1D9BD009B43E8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02C9FB5927A1D9BD009B43E8 /* Preview Assets.xcassets */; };
+		02C9FB5D27A1D9BD009B43E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02C9FB5B27A1D9BD009B43E8 /* LaunchScreen.storyboard */; };
+		02C9FB6827A1D9BD009B43E8 /* Rockaway_Beach_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FB6727A1D9BD009B43E8 /* Rockaway_Beach_AppTests.swift */; };
+		02C9FB7327A1D9BD009B43E8 /* Rockaway_Beach_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C9FB7227A1D9BD009B43E8 /* Rockaway_Beach_AppUITests.swift */; };
+		02C9FB8127A1DA50009B43E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02C9FB8027A1DA50009B43E8 /* GoogleService-Info.plist */; };
+		02C9FB8427A1DB6F009B43E8 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8327A1DB6F009B43E8 /* FirebaseFirestore */; };
+		02C9FB8627A1DB6F009B43E8 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8527A1DB6F009B43E8 /* FirebaseDatabase */; };
+		02C9FB8827A1DB6F009B43E8 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8727A1DB6F009B43E8 /* FirebaseAnalytics */; };
+		02C9FB8A27A1DB6F009B43E8 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8927A1DB6F009B43E8 /* FirebaseStorage */; };
+		02C9FB8C27A1DB6F009B43E8 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8B27A1DB6F009B43E8 /* FirebaseFunctions */; };
+		02C9FB8E27A1DB6F009B43E8 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8D27A1DB6F009B43E8 /* FirebaseCrashlytics */; };
+		02C9FB9027A1DB6F009B43E8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8F27A1DB6F009B43E8 /* FirebaseAuth */; };
+		02C9FB9227A1DB6F009B43E8 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB9127A1DB6F009B43E8 /* FirebasePerformance */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		02C9FB6427A1D9BD009B43E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C9FB4227A1D9BC009B43E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C9FB4927A1D9BC009B43E8;
+			remoteInfo = "Rockaway Beach App";
+		};
+		02C9FB6F27A1D9BD009B43E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 02C9FB4227A1D9BC009B43E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 02C9FB4927A1D9BC009B43E8;
+			remoteInfo = "Rockaway Beach App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02C9FB4A27A1D9BC009B43E8 /* Rockaway Beach App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rockaway Beach App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C9FB4D27A1D9BC009B43E8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		02C9FB4F27A1D9BC009B43E8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		02C9FB5127A1D9BC009B43E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		02C9FB5427A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rockaway_Beach_App.xcdatamodel; sourceTree = "<group>"; };
+		02C9FB5627A1D9BD009B43E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		02C9FB5927A1D9BD009B43E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		02C9FB5C27A1D9BD009B43E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		02C9FB5E27A1D9BD009B43E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C9FB6327A1D9BD009B43E8 /* Rockaway Beach AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rockaway Beach AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C9FB6727A1D9BD009B43E8 /* Rockaway_Beach_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rockaway_Beach_AppTests.swift; sourceTree = "<group>"; };
+		02C9FB6927A1D9BD009B43E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C9FB6E27A1D9BD009B43E8 /* Rockaway Beach AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rockaway Beach AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02C9FB7227A1D9BD009B43E8 /* Rockaway_Beach_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rockaway_Beach_AppUITests.swift; sourceTree = "<group>"; };
+		02C9FB7427A1D9BD009B43E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02C9FB8027A1DA50009B43E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		02C9FB4727A1D9BC009B43E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C9FB8627A1DB6F009B43E8 /* FirebaseDatabase in Frameworks */,
+				02C9FB8A27A1DB6F009B43E8 /* FirebaseStorage in Frameworks */,
+				02C9FB8C27A1DB6F009B43E8 /* FirebaseFunctions in Frameworks */,
+				02C9FB8E27A1DB6F009B43E8 /* FirebaseCrashlytics in Frameworks */,
+				02C9FB8427A1DB6F009B43E8 /* FirebaseFirestore in Frameworks */,
+				02C9FB9027A1DB6F009B43E8 /* FirebaseAuth in Frameworks */,
+				02C9FB9227A1DB6F009B43E8 /* FirebasePerformance in Frameworks */,
+				02C9FB8827A1DB6F009B43E8 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C9FB6027A1D9BD009B43E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C9FB6B27A1D9BD009B43E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02C9FB4127A1D9BC009B43E8 = {
+			isa = PBXGroup;
+			children = (
+				02C9FB4C27A1D9BC009B43E8 /* Rockaway Beach App */,
+				02C9FB6627A1D9BD009B43E8 /* Rockaway Beach AppTests */,
+				02C9FB7127A1D9BD009B43E8 /* Rockaway Beach AppUITests */,
+				02C9FB4B27A1D9BC009B43E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		02C9FB4B27A1D9BC009B43E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				02C9FB4A27A1D9BC009B43E8 /* Rockaway Beach App.app */,
+				02C9FB6327A1D9BD009B43E8 /* Rockaway Beach AppTests.xctest */,
+				02C9FB6E27A1D9BD009B43E8 /* Rockaway Beach AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		02C9FB4C27A1D9BC009B43E8 /* Rockaway Beach App */ = {
+			isa = PBXGroup;
+			children = (
+				02C9FB4D27A1D9BC009B43E8 /* AppDelegate.swift */,
+				02C9FB4F27A1D9BC009B43E8 /* SceneDelegate.swift */,
+				02C9FB5127A1D9BC009B43E8 /* ContentView.swift */,
+				02C9FB5627A1D9BD009B43E8 /* Assets.xcassets */,
+				02C9FB5B27A1D9BD009B43E8 /* LaunchScreen.storyboard */,
+				02C9FB5E27A1D9BD009B43E8 /* Info.plist */,
+				02C9FB5327A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodeld */,
+				02C9FB8027A1DA50009B43E8 /* GoogleService-Info.plist */,
+				02C9FB5827A1D9BD009B43E8 /* Preview Content */,
+			);
+			path = "Rockaway Beach App";
+			sourceTree = "<group>";
+		};
+		02C9FB5827A1D9BD009B43E8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				02C9FB5927A1D9BD009B43E8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		02C9FB6627A1D9BD009B43E8 /* Rockaway Beach AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				02C9FB6727A1D9BD009B43E8 /* Rockaway_Beach_AppTests.swift */,
+				02C9FB6927A1D9BD009B43E8 /* Info.plist */,
+			);
+			path = "Rockaway Beach AppTests";
+			sourceTree = "<group>";
+		};
+		02C9FB7127A1D9BD009B43E8 /* Rockaway Beach AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				02C9FB7227A1D9BD009B43E8 /* Rockaway_Beach_AppUITests.swift */,
+				02C9FB7427A1D9BD009B43E8 /* Info.plist */,
+			);
+			path = "Rockaway Beach AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		02C9FB4927A1D9BC009B43E8 /* Rockaway Beach App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C9FB7727A1D9BD009B43E8 /* Build configuration list for PBXNativeTarget "Rockaway Beach App" */;
+			buildPhases = (
+				02C9FB4627A1D9BC009B43E8 /* Sources */,
+				02C9FB4727A1D9BC009B43E8 /* Frameworks */,
+				02C9FB4827A1D9BC009B43E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rockaway Beach App";
+			packageProductDependencies = (
+				02C9FB8327A1DB6F009B43E8 /* FirebaseFirestore */,
+				02C9FB8527A1DB6F009B43E8 /* FirebaseDatabase */,
+				02C9FB8727A1DB6F009B43E8 /* FirebaseAnalytics */,
+				02C9FB8927A1DB6F009B43E8 /* FirebaseStorage */,
+				02C9FB8B27A1DB6F009B43E8 /* FirebaseFunctions */,
+				02C9FB8D27A1DB6F009B43E8 /* FirebaseCrashlytics */,
+				02C9FB8F27A1DB6F009B43E8 /* FirebaseAuth */,
+				02C9FB9127A1DB6F009B43E8 /* FirebasePerformance */,
+			);
+			productName = "Rockaway Beach App";
+			productReference = 02C9FB4A27A1D9BC009B43E8 /* Rockaway Beach App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		02C9FB6227A1D9BD009B43E8 /* Rockaway Beach AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C9FB7A27A1D9BD009B43E8 /* Build configuration list for PBXNativeTarget "Rockaway Beach AppTests" */;
+			buildPhases = (
+				02C9FB5F27A1D9BD009B43E8 /* Sources */,
+				02C9FB6027A1D9BD009B43E8 /* Frameworks */,
+				02C9FB6127A1D9BD009B43E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C9FB6527A1D9BD009B43E8 /* PBXTargetDependency */,
+			);
+			name = "Rockaway Beach AppTests";
+			productName = "Rockaway Beach AppTests";
+			productReference = 02C9FB6327A1D9BD009B43E8 /* Rockaway Beach AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		02C9FB6D27A1D9BD009B43E8 /* Rockaway Beach AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02C9FB7D27A1D9BD009B43E8 /* Build configuration list for PBXNativeTarget "Rockaway Beach AppUITests" */;
+			buildPhases = (
+				02C9FB6A27A1D9BD009B43E8 /* Sources */,
+				02C9FB6B27A1D9BD009B43E8 /* Frameworks */,
+				02C9FB6C27A1D9BD009B43E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				02C9FB7027A1D9BD009B43E8 /* PBXTargetDependency */,
+			);
+			name = "Rockaway Beach AppUITests";
+			productName = "Rockaway Beach AppUITests";
+			productReference = 02C9FB6E27A1D9BD009B43E8 /* Rockaway Beach AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02C9FB4227A1D9BC009B43E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					02C9FB4927A1D9BC009B43E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					02C9FB6227A1D9BD009B43E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 02C9FB4927A1D9BC009B43E8;
+					};
+					02C9FB6D27A1D9BD009B43E8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 02C9FB4927A1D9BC009B43E8;
+					};
+				};
+			};
+			buildConfigurationList = 02C9FB4527A1D9BC009B43E8 /* Build configuration list for PBXProject "Rockaway Beach App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02C9FB4127A1D9BC009B43E8;
+			packageReferences = (
+				02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 02C9FB4B27A1D9BC009B43E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				02C9FB4927A1D9BC009B43E8 /* Rockaway Beach App */,
+				02C9FB6227A1D9BD009B43E8 /* Rockaway Beach AppTests */,
+				02C9FB6D27A1D9BD009B43E8 /* Rockaway Beach AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		02C9FB4827A1D9BC009B43E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C9FB5D27A1D9BD009B43E8 /* LaunchScreen.storyboard in Resources */,
+				02C9FB8127A1DA50009B43E8 /* GoogleService-Info.plist in Resources */,
+				02C9FB5A27A1D9BD009B43E8 /* Preview Assets.xcassets in Resources */,
+				02C9FB5727A1D9BD009B43E8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C9FB6127A1D9BD009B43E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C9FB6C27A1D9BD009B43E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02C9FB4627A1D9BC009B43E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C9FB4E27A1D9BC009B43E8 /* AppDelegate.swift in Sources */,
+				02C9FB5027A1D9BC009B43E8 /* SceneDelegate.swift in Sources */,
+				02C9FB5527A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodeld in Sources */,
+				02C9FB5227A1D9BC009B43E8 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C9FB5F27A1D9BD009B43E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C9FB6827A1D9BD009B43E8 /* Rockaway_Beach_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		02C9FB6A27A1D9BD009B43E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02C9FB7327A1D9BD009B43E8 /* Rockaway_Beach_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		02C9FB6527A1D9BD009B43E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C9FB4927A1D9BC009B43E8 /* Rockaway Beach App */;
+			targetProxy = 02C9FB6427A1D9BD009B43E8 /* PBXContainerItemProxy */;
+		};
+		02C9FB7027A1D9BD009B43E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 02C9FB4927A1D9BC009B43E8 /* Rockaway Beach App */;
+			targetProxy = 02C9FB6F27A1D9BD009B43E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		02C9FB5B27A1D9BD009B43E8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02C9FB5C27A1D9BD009B43E8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02C9FB7527A1D9BD009B43E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		02C9FB7627A1D9BD009B43E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02C9FB7827A1D9BD009B43E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rockaway Beach App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rockaway Beach App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Rockaway-Beach-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02C9FB7927A1D9BD009B43E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Rockaway Beach App/Preview Content\"";
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Rockaway Beach App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Rockaway-Beach-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		02C9FB7B27A1D9BD009B43E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				INFOPLIST_FILE = "Rockaway Beach AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Rockaway-Beach-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rockaway Beach App.app/Rockaway Beach App";
+			};
+			name = Debug;
+		};
+		02C9FB7C27A1D9BD009B43E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				INFOPLIST_FILE = "Rockaway Beach AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Rockaway-Beach-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rockaway Beach App.app/Rockaway Beach App";
+			};
+			name = Release;
+		};
+		02C9FB7E27A1D9BD009B43E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				INFOPLIST_FILE = "Rockaway Beach AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Rockaway-Beach-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rockaway Beach App";
+			};
+			name = Debug;
+		};
+		02C9FB7F27A1D9BD009B43E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6346F46FVY;
+				INFOPLIST_FILE = "Rockaway Beach AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mykoo.apps.Rockaway-Beach-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rockaway Beach App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02C9FB4527A1D9BC009B43E8 /* Build configuration list for PBXProject "Rockaway Beach App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C9FB7527A1D9BD009B43E8 /* Debug */,
+				02C9FB7627A1D9BD009B43E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C9FB7727A1D9BD009B43E8 /* Build configuration list for PBXNativeTarget "Rockaway Beach App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C9FB7827A1D9BD009B43E8 /* Debug */,
+				02C9FB7927A1D9BD009B43E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C9FB7A27A1D9BD009B43E8 /* Build configuration list for PBXNativeTarget "Rockaway Beach AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C9FB7B27A1D9BD009B43E8 /* Debug */,
+				02C9FB7C27A1D9BD009B43E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02C9FB7D27A1D9BD009B43E8 /* Build configuration list for PBXNativeTarget "Rockaway Beach AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02C9FB7E27A1D9BD009B43E8 /* Debug */,
+				02C9FB7F27A1D9BD009B43E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.11.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		02C9FB8327A1DB6F009B43E8 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		02C9FB8527A1DB6F009B43E8 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		02C9FB8727A1DB6F009B43E8 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		02C9FB8927A1DB6F009B43E8 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		02C9FB8B27A1DB6F009B43E8 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		02C9FB8D27A1DB6F009B43E8 /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		02C9FB8F27A1DB6F009B43E8 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		02C9FB9127A1DB6F009B43E8 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 02C9FB8227A1DB6F009B43E8 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		02C9FB5327A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				02C9FB5427A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodel */,
+			);
+			currentVersion = 02C9FB5427A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodel */;
+			path = Rockaway_Beach_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 02C9FB4227A1D9BC009B43E8 /* Project object */;
+}
