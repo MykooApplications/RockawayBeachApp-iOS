@@ -12,55 +12,36 @@ struct ContentView: View {
         TabView {
             HomeView()
                 .tabItem {
-                    Image(systemName: "1.square.fill")
+                    Image(systemName: "book")
                     Text("Home")
                 }
             
             FoodView()
                 .tabItem {
-                    Image(systemName: "2.square.fill")
+                    Image(systemName: "fork.knife")
                     Text("Food")
                 }
             
             ShopView()
                 .tabItem {
-                    Image(systemName: "3.square.fill")
+                    Image(systemName: "bag")
                     Text("Shop")
                 }
+            
+            SettingsView()
+                .tabItem {
+                    Image(systemName: "gear")
+                    Text("Settings")
+                }
+            
         }
         .font(.headline)
     }
 }
 
-struct HomeView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                
-            }.navigationTitle("Rockaway Home")
-        }
-    }
-}
 
-struct FoodView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                
-            }.navigationTitle("Local Food")
-        }
-    }
-}
 
-struct ShopView: View {
-    var body: some View {
-        NavigationView {
-            ZStack {
-                
-            }.navigationTitle("Neighborhood Shops")
-        }
-    }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

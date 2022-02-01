@@ -25,6 +25,10 @@
 		02C9FB8E27A1DB6F009B43E8 /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8D27A1DB6F009B43E8 /* FirebaseCrashlytics */; };
 		02C9FB9027A1DB6F009B43E8 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB8F27A1DB6F009B43E8 /* FirebaseAuth */; };
 		02C9FB9227A1DB6F009B43E8 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 02C9FB9127A1DB6F009B43E8 /* FirebasePerformance */; };
+		31BD718E27A8A2C1006582FB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD718D27A8A2C1006582FB /* SettingsView.swift */; };
+		31BD719027A8A670006582FB /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD718F27A8A670006582FB /* ShopView.swift */; };
+		31BD719227A8A69D006582FB /* FoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD719127A8A69D006582FB /* FoodView.swift */; };
+		31BD719427A8A6AC006582FB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BD719327A8A6AC006582FB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,10 @@
 		02C9FB7227A1D9BD009B43E8 /* Rockaway_Beach_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rockaway_Beach_AppUITests.swift; sourceTree = "<group>"; };
 		02C9FB7427A1D9BD009B43E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02C9FB8027A1DA50009B43E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		31BD718D27A8A2C1006582FB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		31BD718F27A8A670006582FB /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		31BD719127A8A69D006582FB /* FoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodView.swift; sourceTree = "<group>"; };
+		31BD719327A8A6AC006582FB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +130,10 @@
 				02C9FB4D27A1D9BC009B43E8 /* AppDelegate.swift */,
 				02C9FB4F27A1D9BC009B43E8 /* SceneDelegate.swift */,
 				02C9FB5127A1D9BC009B43E8 /* ContentView.swift */,
+				31BD719327A8A6AC006582FB /* HomeView.swift */,
+				31BD718F27A8A670006582FB /* ShopView.swift */,
+				31BD719127A8A69D006582FB /* FoodView.swift */,
+				31BD718D27A8A2C1006582FB /* SettingsView.swift */,
 				02C9FB5627A1D9BD009B43E8 /* Assets.xcassets */,
 				02C9FB5B27A1D9BD009B43E8 /* LaunchScreen.storyboard */,
 				02C9FB5E27A1D9BD009B43E8 /* Info.plist */,
@@ -302,8 +314,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31BD719027A8A670006582FB /* ShopView.swift in Sources */,
+				31BD718E27A8A2C1006582FB /* SettingsView.swift in Sources */,
+				31BD719227A8A69D006582FB /* FoodView.swift in Sources */,
 				02C9FB4E27A1D9BC009B43E8 /* AppDelegate.swift in Sources */,
 				02C9FB5027A1D9BC009B43E8 /* SceneDelegate.swift in Sources */,
+				31BD719427A8A6AC006582FB /* HomeView.swift in Sources */,
 				02C9FB5527A1D9BC009B43E8 /* Rockaway_Beach_App.xcdatamodeld in Sources */,
 				02C9FB5227A1D9BC009B43E8 /* ContentView.swift in Sources */,
 			);
